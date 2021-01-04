@@ -1,0 +1,179 @@
+body{
+	font-family: Ubuntu, sans-serif;
+}
+
+hr{
+	border: 2px solid white;
+	width: 200px
+}
+
+/*BARRE DE NAVIGATION*/
+.nav ul{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.3em;
+}
+
+li.allo{
+	text-transform: none;
+}
+
+.nav li{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+span.normal{
+	font-weight: normal;
+}
+
+.nav a{
+	color: black !important;
+}
+
+.nav a:hover{
+	color: #0077be !important;
+}
+
+.nav .allo a{
+	text-align: center;
+	background-color: #339966;
+	color: white !important;
+}
+
+.nav .allo a:hover{
+	text-decoration: underline !important;
+}
+
+button.navbar-toggler{
+	margin: 10px;
+}
+
+.brand{
+	display: none;
+}
+
+.logo{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 250px;
+	height: auto;
+}
+
+/*MAIN*/
+/*au coeur des possibles*/
+/*section carousel*/
+.zonetextcarousel{
+	margin-bottom: 13%;
+	letter-spacing: 0.2em;
+	word-spacing: 0.1em;
+}
+
+.coeur{ /*texte - au coeur des possibles*/
+ text-align: center;
+ font-size: 4em;
+ font-weight: bold;
+ color: white;
+ text-shadow: 3px 2px 5px #151414;
+}
+
+/*catégories principales de la page*/
+.container{
+	margin-top: 50px;
+}
+
+h1{ /*titre des catégories*/
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 3em;
+}
+
+/*responsive*/
+
+@media (max-width: 1450px){
+	.nav ul{
+		font-size: 1em;
+	}
+
+	.coeur{
+		font-size: 4em;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 1240px){
+	.nav ul{
+		font-size: 0.8em;
+	}
+
+	.logo{
+		width: 200px;
+	}
+
+	.coeur{
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 1055px){
+	.nav ul{
+		font-size: 0.7em;
+	}
+}
+
+@media (max-width: 991px){
+	.nav{
+		text-align: center;
+		padding: 0 !important;
+	}
+
+	.nav ul{
+		background-color: #f7f7f7;
+	}
+
+	.brand{
+		display: inline-block;
+	}
+
+	.logo2{
+		display: none;
+	}
+}
+
+@media (max-width: 885px){
+	.coeur{
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 700px){
+	.coeur{
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 500px){
+	.coeur{
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 400px){
+	.coeur{
+		font-size: 1em;
+	}
+
+	.brand{
+		width: 140px;
+		height: auto;
+		margin-top: 10px;
+	}
+}
