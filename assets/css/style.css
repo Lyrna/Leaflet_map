@@ -113,7 +113,7 @@ button.navbar-toggler{
 	margin-top: 50px;
 }
 
-.card{ 
+.card{
 	align-items: center;
 	border: none;
 }
@@ -152,6 +152,42 @@ h2{
 	text-align: center;
 }
 
+/* METEO */
+.box-container
+{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box
+{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+#city
+{
+  background-color: #22739F;
+}
+#temp
+{
+  background-color: #365B63;
+}
+#humidity
+{
+  background-color: #26698A;
+}
+#wind
+{
+  background-color: #A3BAA1;
+}
+
 /*MAP LEAFLET*/
 
 .map{
@@ -160,7 +196,7 @@ h2{
 	text-align: center;
 }
 
-#mapid { 
+#mapid {
 	width: 900px;
 	height: 500px;
 }

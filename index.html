@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Leaflet map</title>
@@ -93,7 +94,7 @@
 	        <div class="card gamme">
 	          <img src="assets/img/img1/img3.png" alt="icon" class="card-img-top imageicone">
 	          <div class="card-body">
-	            <h2 class="card-title">Carte d'identité & transport</h2>            
+	            <h2 class="card-title">Carte d'identité & transport</h2>
 	          </div>
 	        </div>
 	      </div>
@@ -134,6 +135,18 @@
     <!--METEO-->
     <img src="assets/img/decor/deco.png" alt="artifice" width="100%" height="auto"/>
     <h1><span class="normal">Météo du</span> jour</h1>
+		<div class="container">
+		<div class="col-12 col-sm-12 d-flex justify-content-center my-3">
+			<div class="box-container">
+				<div id="city"class="box"></div>
+				<div id="temp" class="box"></div>
+				<div id="humidity" class="box"></div>
+				<div id="wind" class="box"></div>
+			</div>
+
+		</div>
+
+	</div>
     <!--MAP-->
     <img src="assets/img/decor/deco3.png" alt="artifice" width="100%" height="auto"/>
     <h1><span class="normal">Lieux</span> favoris</h1>
@@ -166,7 +179,7 @@
 				<a href="">Plan du site</a>
 			</div>
 		</div>
-</footer>	
+</footer>
 	<!--Scripts-->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -174,5 +187,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
   <script src="assets/js/script.js"></script>
+	<script src="assets/js/meteo.js"></script>
 </body>
 </html>
