@@ -160,7 +160,6 @@ h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 
 .box
@@ -175,21 +174,56 @@ h2{
   font-size: 1.5rem;
   color: white;
 }
+
+.box2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #f7f7f7;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.box-meteo{
+	margin-bottom: 0 !important;
+}
+
+.box-meteo-case{
+	padding: 0 !important;
+}
+
+#descriptionMeteo img{
+	height: 60px;
+	width: 60px;
+}
+
+.gris{
+	background-color: #161616;
+	padding-bottom: 0;
+	padding-top: 10px;
+	color: white;
+}
+
 #city
 {
   background-color: #22739F;
 }
 #temp
 {
-  background-color: #365B63;
+  background-color: #244D76;
 }
 #humidity
 {
-  background-color: #1D9299;
+  background-color: #7F5D9C;
 }
 #wind
 {
-  background-color: #44A07D;
+  background-color: #5D9C7D;
 }
 
 /*MAP LEAFLET*/

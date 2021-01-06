@@ -6,6 +6,7 @@ fetch(url).then((response) =>
    document.querySelector ('#temp').innerHTML ="<i class='fas fa-thermometer-three-quarters'></i>" +  data.main.temp + ' °C';
    document.querySelector ('#humidity').innerHTML = "<i class='fas fa-tint'></i>" + data.main.humidity + ' %';
    document.querySelector ('#wind').innerHTML = "<i class='fas fa-wind'></i>" + data.wind.speed  + ' m/sec';
+   document.querySelector ('#descriptionMeteo').innerHTML = "<img src='http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png'>" + data.weather[0].description;
  })
 
 );
