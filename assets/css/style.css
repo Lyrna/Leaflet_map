@@ -451,6 +451,13 @@ footer a:hover{
 	}
 }
 
+@media (max-width: 420px){
+	.card-img-top{
+	height: 120px;
+	width: 120px;
+	}
+}
+
 @media (max-width: 400px){
 	.coeur{
 		font-size: 1em;
@@ -460,5 +467,12 @@ footer a:hover{
 		width: 140px;
 		height: auto;
 		margin-top: 10px;
+	}
+}
+
+@media (max-width: 300px){
+	.card-img-top{
+	height: 100px;
+	width: 100px;
 	}
 }
